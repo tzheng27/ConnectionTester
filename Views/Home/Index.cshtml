@@ -2,18 +2,16 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>Connection Tester</h1>
-    <p class="lead">Test HTTP connection with GET or POST method.</p>
-</div>
-
 <div class="row">
     <div class="col-md-12">
+        <div class="title">
+            <h1>Connection Tester</h1>
+            <p class="lead">Test HTTP connection with GET or POST method.</p>
+        </div>
         <h2>GET</h2>
         <div>
             <button id="addheaderGet" class="btn btn-default">Add Header</button>
         </div>
-        <br />
         @using (Html.BeginForm("GetResponse", "Tester", FormMethod.Post, new { id = "formGet" }))
         {
             <div>
@@ -22,10 +20,8 @@
             </div>
 
             <div id="getheaders"></div>
-
-            <br />
             <div>
-                <input id="submitBtnGet" type="submit" class="btn btn-default" value="Go" />
+                <input id="submitBtnGet" type="submit" class="btn btn-primary" value="Go" />
             </div>
         }
 
@@ -41,7 +37,6 @@
         <div>
             <button id="addheaderPost" class="btn btn-default">Add Header</button>
         </div>
-        <br />
         @using (Html.BeginForm("PostResponse", "Tester", FormMethod.Post, new { id = "formPost" }))
         {
             <div>
@@ -54,12 +49,10 @@
             <div>
                 <label for="content">Request Content: </label>
                 <br />
-                <textarea name="content" id="content" placeholder="Please enter the request body here" cols="60" rows="10"></textarea>
+                <textarea name="content" id="content" placeholder="Please enter the request body here"></textarea>
             </div>
-
-            <br />
             <div>                
-                <input id="submitBtnPost" type="submit" class="btn btn-default" value="Go" />
+                <input id="submitBtnPost" type="submit" class="btn btn-primary" value="Go" />
             </div>
         }
         <br />
