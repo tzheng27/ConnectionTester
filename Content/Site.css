@@ -57,3 +57,7 @@ hr {
 footer {
     padding-top: 1rem;
 }
+
+button.btn {
+    margin-top: 1rem;
+}
