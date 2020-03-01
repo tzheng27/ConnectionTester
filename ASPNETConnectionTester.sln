@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETConnectionTester", "ASPNETConnectionTester.csproj", "{615EF1C8-C020-466B-8427-456CFD3A5E4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{615EF1C8-C020-466B-8427-456CFD3A5E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615EF1C8-C020-466B-8427-456CFD3A5E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615EF1C8-C020-466B-8427-456CFD3A5E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615EF1C8-C020-466B-8427-456CFD3A5E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38D0428E-A00F-4A00-881A-FECFF3DA975A}
+	EndGlobalSection
+EndGlobal
