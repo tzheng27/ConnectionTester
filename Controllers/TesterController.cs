@@ -36,7 +36,7 @@ namespace ASPNETConnectionTester.Controllers
                     }
                 }
                 httpWebRequest.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;
-                httpWebRequest.ContentType = "application/json";
+                //httpWebRequest.ContentType = "application/json";
                 httpWebRequest.Method = "GET";
 
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
